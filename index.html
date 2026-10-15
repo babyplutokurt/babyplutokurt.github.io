@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Taolue Kurt Yang</title>
+<meta name="description" content="Taolue (Kurt) Yang, Ph.D. candidate in Computer Science at Temple University. Efficient AI and data systems: compression, quantization, and HPC.">
+<meta property="og:title" content="Taolue Kurt Yang">
+<meta property="og:description" content="Ph.D. candidate at Temple University working on efficient AI and data systems. On the 2026–27 academic job market.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛷</text></svg>">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1d1f23;
+    --muted: #5d636e;
+    --rule: #e3e5e9;
+    --accent: #1f5fa8;
+    --accent-soft: #eaf1fa;
+    --badge: #b5541c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15171b;
+      --fg: #e7e9ec;
+      --muted: #a2a8b3;
+      --rule: #2b2f36;
+      --accent: #79aef0;
+      --accent-soft: #1d2a3a;
+      --badge: #f0a372;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15171b;
+    --fg: #e7e9ec;
+    --muted: #a2a8b3;
+    --rule: #2b2f36;
+    --accent: #79aef0;
+    --accent-soft: #1d2a3a;
+    --badge: #f0a372;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--bg);
+    border-bottom: 1px solid var(--rule);
+  }
+  nav .wrap { display: flex; flex-wrap: wrap; gap: 4px 18px; padding-top: 10px; padding-bottom: 10px; font-size: 15px; }
+  nav .name { font-weight: 600; color: var(--fg); margin-right: auto; }
+  header.hero { display: flex; gap: 32px; align-items: flex-start; padding: 40px 0 8px; }
+  header.hero > div { min-width: 0; }
+  body { overflow-wrap: anywhere; }
+  .hero img {
+    width: 200px; height: 250px; object-fit: cover; border-radius: 10px; flex: none;
+  }
+  .hero h1 { margin: 0 0 2px; font-size: 32px; line-height: 1.2; }
+  .hero .sub { color: var(--muted); margin: 0 0 14px; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 14px 0 0; font-size: 15px; }
+  .market {
+    background: var(--accent-soft); border-left: 3px solid var(--accent);
+    padding: 10px 14px; border-radius: 4px; margin: 18px 0 0;
+  }
+  h2 {
+    font-size: 21px; margin: 40px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+  }
+  h3 { font-size: 16px; margin: 20px 0 6px; color: var(--muted); font-weight: 600; }
+  ul.news { list-style: none; padding: 0; margin: 0; }
+  ul.news li { display: flex; gap: 14px; padding: 4px 0; }
+  ul.news .date { color: var(--muted); flex: none; width: 84px; font-variant-numeric: tabular-nums; }
+  ol.pubs { padding-left: 0; list-style: none; margin: 0; }
+  ol.pubs li { margin: 0 0 14px; }
+  .ptitle { font-weight: 600; }
+  .venue { font-style: italic; }
+  .me { font-weight: 600; text-decoration: underline; text-underline-offset: 2px; }
+  .award { color: var(--badge); font-weight: 600; }
+  .plinks a {
+    display: inline-block; font-size: 13px; padding: 0 7px; margin-right: 4px;
+    border: 1px solid var(--rule); border-radius: 4px;
+  }
+  .job { margin: 0 0 16px; }
+  .job .head { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0 12px; }
+  .job .role { font-weight: 600; }
+  .job .when { color: var(--muted); }
+  .job ul { margin: 4px 0 0; padding-left: 20px; }
+  footer { color: var(--muted); font-size: 14px; padding: 40px 0 32px; }
+  @media (max-width: 640px) {
+    header.hero { flex-direction: column; gap: 18px; padding-top: 24px; }
+    .hero img { width: 160px; height: 200px; }
+    .hero h1 { font-size: 27px; }
+    ul.news li { flex-direction: column; gap: 0; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <span class="name">Taolue Kurt Yang</span>
+    <a href="#research">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+    <a href="#teaching">Teaching</a>
+    <a href="Taolue_Yang_CV.pdf">CV</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<header class="hero">
+  <img src="photo.jpg" alt="Taolue Kurt Yang ski touring in the mountains">
+  <div>
+    <h1>Taolue (Kurt) Yang</h1>
+    <p class="sub">Ph.D. Candidate in Computer Science, Temple University</p>
+    <p>I build systems that make AI and data-intensive science faster and cheaper by removing redundancy:
+      compressing data, lowering numerical precision, and avoiding repeated computation, while keeping
+      results exact or within guaranteed error bounds. I work mostly on GPUs, but also on TPUs and CPUs.</p>
+    <p>I am advised by Prof. Sian Jin
+      and work closely with Prof. Xinghua (Mindy) Shi on genomic data. Along the way I have interned twice at
+      Google and once at Oracle, and my changes to NVIDIA's NeMo-RL and ModelOpt were merged upstream.
+      Outside of work, you will usually find me skiing.</p>
+    <div class="links">
+      <a href="mailto:taolue.yang@temple.edu">taolue.yang@temple.edu</a>
+      <a href="Taolue_Yang_CV.pdf">CV (PDF)</a>
+      <a href="https://scholar.google.com/citations?user=KdwpmtMAAAAJ">Google Scholar</a>
+      <a href="https://github.com/babyplutokurt">GitHub</a>
+      <a href="https://www.linkedin.com/in/kurty/">LinkedIn</a>
+    </div>
+    <p class="market"><strong>I am on the 2026–27 academic job market</strong> for tenure-track faculty
+      positions in computer science, and expect to graduate in May 2027.</p>
+  </div>
+</header>
+
+<h2 id="news">News</h2>
+<ul class="news">
+  <li><span class="date">Oct 2026</span><span>On the academic job market for tenure-track faculty positions.</span></li>
+  <li><span class="date">Aug 2026</span><span>Finished my internship on Google Cloud AI (Vertex AI), working on LLM quantization and quantization-aware RL training.</span></li>
+  <li><span class="date">Jul 2026</span><span><a href="https://doi.org/10.1145/3807503.3819479">CuVert-Q</a> received the <span class="award">Best Paper Award</span> at ACM-BCB 2026.</span></li>
+  <li><span class="date">Jul 2026</span><span><a href="https://dl.acm.org/doi/10.1145/3797905.3807870">GFAz</a> published at ICS 2026.</span></li>
+  <li><span class="date">2026</span><span>Two papers accepted to SC'26 and one to VLDB'26.</span></li>
+</ul>
+
+<h2 id="research">Research</h2>
+<p><strong>Compression-native genomic computing.</strong> Sequencing and pangenome data grow faster than the
+  hardware to analyze them. I build GPU compressors for this data (CuVert-Q, GFAz, GPUFastq, SeqBench), run
+  analytics directly on compressed pangenome graphs, and, most recently, share exact computation across thousands
+  of personal genomes when running deep-learning models, which makes inference up to 584× faster than standard
+  batched execution with identical outputs.</p>
+<p><strong>Quantization for efficient LLM training and inference.</strong> I have worked on reduced-precision LLM
+  systems across hardware: int8 inference kernels on AMD CPUs at Oracle, LLM serving on TPUs and GPU quantization
+  at Google, and error-bounded compression of KV caches and embeddings in my Ph.D. work. Next, I am interested in
+  quantization-aware RL post-training, FP8/FP4 fine-tuning, and error-bounded KV-cache quantization.</p>
+
+<h2 id="publications">Publications</h2>
+<p style="color:var(--muted);font-size:15px;margin-top:0">See also <a href="https://scholar.google.com/citations?user=KdwpmtMAAAAJ">Google Scholar</a>.</p>
+
+<h3>Conference papers</h3>
+<ol class="pubs">
+  <li><span class="ptitle">CuVert-Q: Resolving the Throughput-Ratio Tradeoff in Genomic Sequence Data Compression via GPU Acceleration</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, B. Jiang, C. Li, X. Shi, S. Jin<br>
+    <span class="venue">ACM-BCB 2026</span> · <span class="award">Best Paper Award</span><br>
+    <span class="plinks"><a href="https://doi.org/10.1145/3807503.3819479">Paper</a><a href="https://github.com/babyplutokurt/cuVert-Q">Code</a></span></li>
+  <li><span class="ptitle">GFAz: State-of-the-Art Graphical Fragment Assembly Compression</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, B. Jiang, X. Shi, S. Jin<br>
+    <span class="venue">ICS 2026</span><br>
+    <span class="plinks"><a href="https://dl.acm.org/doi/10.1145/3797905.3807870">Paper</a><a href="https://github.com/babyplutokurt/GFAz">Code</a></span></li>
+  <li><span class="ptitle">SeqBench: A Benchmark Suite for Lossless and Lossy Compression of Sequence Data</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, C. Li, X. Shi, S. Jin<br>
+    <span class="venue">ACM-BCB 2024</span><br>
+    <span class="plinks"><a href="https://dl.acm.org/doi/10.1145/3698587.3701386">Paper</a><a href="https://github.com/babyplutokurt/SeqBench">Code</a></span></li>
+  <li><span class="ptitle">TOPIQ: Statistical Error Propagation for Quantity-of-Interest Prediction under Lossy Compression</span><br>
+    Y. Liu, B. Jiang, <span class="me">T. Yang</span>, S. Di, R. Underwood, S. Jin<br>
+    <span class="venue">SC 2026</span></li>
+  <li><span class="ptitle">3D Gaussian Splatting for Scientific Particle Data Compression and Rendering</span><br>
+    B. Jiang, Y. Liu, <span class="me">T. Yang</span>, S. Di, S. Jin<br>
+    <span class="venue">SC 2026</span></li>
+  <li><span class="ptitle">Error-Bounded Point Cloud Compression Using Truncated Octahedron Quantization</span><br>
+    Y. Liu, L. Zhang, R. Li, B. Jiang, <span class="me">T. Yang</span>, K. Zhao, S. Di, E. Dragut, S. Jin<br>
+    <span class="venue">VLDB 2026</span></li>
+  <li><span class="ptitle">PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression</span><br>
+    B. Jiang, <span class="me">T. Yang</span>, Y. Liu, X. He, S. Di, S. Jin<br>
+    <span class="venue">IPDPS 2026</span></li>
+  <li><span class="ptitle">EmbdC: Error-Bounded Lossy Video Embedding Compression for On-Device LLM Inference</span><br>
+    B. Jiang, <span class="me">T. Yang</span>, Y. Liu, X. He, S. Di, S. Jin<br>
+    <span class="venue">CCGrid 2026</span></li>
+  <li><span class="ptitle">Advancing Scientific Data Compression via Cross-Field Prediction</span><br>
+    Y. Liu, W. Jia, <span class="me">T. Yang</span>, B. Jiang, M. Yin, S. Jin<br>
+    <span class="venue">HPDC 2025</span></li>
+</ol>
+
+<h3>Workshop and short papers</h3>
+<ol class="pubs">
+  <li><span class="ptitle">GPUFast-: Novel High-Throughput Sequence Data Compression on GPUs Using Fine-Grained Parallelism</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, B. Jiang, C. Li, X. Shi, S. Jin<br>
+    <span class="venue">DCC 2026</span></li>
+  <li><span class="ptitle">GPUFastq: An Ultra Fast Compression Methodology for FASTQ Sequence Data on GPUs</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, B. Jiang, S. Jin<br>
+    <span class="venue">SC24 Workshops</span></li>
+  <li><span class="ptitle">Accurate Performance Modeling and Uncertainty Analysis of Lossy Compression in Scientific Applications</span><br>
+    Y. Liu, <span class="me">T. Yang</span>, S. Jin<br>
+    <span class="venue">DCC 2025</span><br>
+    <span class="plinks"><a href="https://doi.org/10.1109/DCC62719.2025.00077">Paper</a></span></li>
+  <li><span class="ptitle">Enhancing Lossy Compression through Cross-Field Information for Scientific Applications</span><br>
+    Y. Liu, W. Jia, <span class="me">T. Yang</span>, M. Yin, S. Jin<br>
+    <span class="venue">SC24 Workshops</span></li>
+</ol>
+
+<h3>Under review and in preparation</h3>
+<ol class="pubs">
+  <li><span class="ptitle">Computing over Compression: Pangenome Analytics Directly on Grammar-Compressed Graphs</span><br>
+    <span class="me">T. Yang</span>, Y. Liu, B. Jiang, X. Shi, S. Jin<br>
+    <span class="venue">Submitted to USENIX FAST 2027</span></li>
+  <li><span class="ptitle">Exact Per-Layer Computation Sharing for Convolutional Sequence Models Across Haplotypes</span><br>
+    <span class="me">T. Yang</span>, S. Jin<br>
+    <span class="venue">In preparation</span></li>
+  <li><span class="ptitle">KVComp: A High-Performance, LLM-Aware, Lossy Compression Framework for KV Cache</span><br>
+    B. Jiang, <span class="me">T. Yang</span>, Y. Liu, C. Zhang, X. He, S. Jin<br>
+    <span class="venue">Preprint</span><br>
+    <span class="plinks"><a href="https://arxiv.org/abs/2509.00579">arXiv</a></span></li>
+</ol>
+
+<h2 id="experience">Industry Experience</h2>
+<div class="job">
+  <div class="head"><span class="role">Software Engineer Intern, Google Cloud AI (Vertex AI)</span><span class="when">May–Aug 2026 · Sunnyvale, CA</span></div>
+  <ul>
+    <li>Built a large-scale post-training quantization evaluation framework for LLMs across GPU generations, and used it to set hardware-aware deployment recipes.</li>
+    <li>Made quantization-aware RL training 70% faster in NVIDIA NeMo-RL by caching fake-quantized weights, and fixed a Megatron weight-folding bug in NVIDIA ModelOpt; both were merged upstream.</li>
+  </ul>
+</div>
+<div class="job">
+  <div class="head"><span class="role">Software Engineer Intern, Google (MaxText)</span><span class="when">Jul–Oct 2025 · Kirkland, WA</span></div>
+  <ul>
+    <li>Optimized Mixture-of-Experts LLM inference on TPUs, implemented Mixture of Block Attention in JAX, and built an OpenAI-compatible serving API for MaxText.</li>
+  </ul>
+</div>
+<div class="job">
+  <div class="head"><span class="role">Software Engineer Intern, Oracle (MySQL HeatWave)</span><span class="when">Jan–Jul 2025 · Redwood City, CA</span></div>
+  <ul>
+    <li>Built an 8-bit quantized LLM inference stack for AMD CPUs with AVX-512 and int8 GEMM kernels, 4.5× faster prefill than llama.cpp.</li>
+    <li>Developed a relaxed speculative decoding algorithm that speeds up generation by 1.5× (patent filed).</li>
+  </ul>
+</div>
+
+<h3>Open source</h3>
+<p style="margin-top:0">Upstream contributions to NVIDIA NeMo-RL (#3226, #3441, #3556) and NVIDIA ModelOpt (#2131); my own research
+  software includes <a href="https://github.com/babyplutokurt/cuVert-Q">CuVert-Q</a>,
+  <a href="https://github.com/babyplutokurt/GFAz">GFAz</a>, and <a href="https://github.com/babyplutokurt/SeqBench">SeqBench</a>.</p>
+
+<h2 id="teaching">Teaching</h2>
+<p>Lab instructor at Temple University for <strong>CIS 1068: Program Design and Abstraction</strong>, the first
+  required programming course in the CS major (Spring 2024, two sections; Fall 2024), and for
+  <strong>CIS 2109: Database Management Systems</strong> (Fall 2024). I ran weekly labs, taught Java,
+  searching and sorting, and SQL, graded, and held office hours.</p>
+
+<h2 id="service">Service</h2>
+<p>Reviewer for ACDSA 2026 and 2027 and ICECET 2026.</p>
+
+<footer>
+  © 2026 Taolue Kurt Yang · <a href="mailto:taolue.yang@temple.edu">taolue.yang@temple.edu</a>
+</footer>
+
+</main>
+</body>
+</html>
